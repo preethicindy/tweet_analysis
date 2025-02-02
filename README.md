@@ -1,12 +1,12 @@
-# Tweet Analysis 
+## Tweet Analysis
 
-## Tweet Extraction 
+### Tweet Extraction 
 
-Implementing the first step of ETL - Extraction. 
-I have extracted tweets from Twitter using Twikit version 2.2.2
+As part of the Extraction phase in the ETL process, I have utilized Twikit library version 2.2.2 to extract tweets from Twitter.
+Twikit is a Python library that allows interaction with Twitter's internal API without the need for an API key.
 
 ### Pre-requisites
-Visual Studio code, Python 3.10+ 
+Visual Studio code, Python 3.10 or higher, Twikit library
 
 ### Steps:
 1. Connecting to twitter using client.login()
@@ -15,7 +15,6 @@ Visual Studio code, Python 3.10+
 4. Exracting tweets (minimum 30) related to "Deepseek" using client.search_tweet()
 5. Writing it to a csv file
 6. To introduce human behavior, I have used fetched tweets after few seconds usingtime.sleep(wait_time)
-
 
 #### Clone the Repository:
     git clone https://github.com/preethicindy/tweet_analysis.git
